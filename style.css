@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+* {
+    margin: 0;
+    padding: 0 100px;
+}
+body {
+    min-height: 100vh;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    color: #595959;
+}
+
+body>* {
+    margin: 0;
+    padding: 0 100px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    color: black;
+}
+.hero-section {
+    height: 100vh;
+    background-color: #fbf8f3;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: #fbf8f3;
+}
+.logo-text{
+    font-weight: bold;
+    font-style: italic;
+    color: #3180f5
+}
+
+.navbar a  {
+    text-decoration: none;
+    color: #595959;
+}
+.nav-menu .nav-btn{
+    color: white ;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.signup-btn{
+    background-color: #1da1f2;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.hero-section{
+    display: flex;
+    padding-top: 50px;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-image{
+    width: 500px;
+}
+.hero-heading{
+    font-size: 50px;
+    letter-spacing: 1.5;
+    /* line-height: 1.5; */
+    word-spacing: 1.5;
+}
+.link-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.link-container a{
+    text-decoration: none;
+}
+.learn-btn {
+    color: #1f7898;
+    font-weight: bold;
+}
+.image-container{
+    padding: 30px 0;
+}
+.image-container img{
+    margin-left: -25px;
+}
+.image-container .first-image{
+    margin:0;
+}
+.hero-text{
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+.navyblue {
+    color: #1f7898;
+    font-weight: bold;
+}
+
+/* features - section */
+
+.features-section{
+    padding:  50px 100px;
+}
+.features-heading{
+    margin-bottom: 50px;
+}
+.features-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 43px;
+    
+}
+.card{
+    padding: 20px 15px;
+    border: 1px solid grey;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+}
+.card-header{
+    margin: 10px 0;
+}
+.card-image{
+    width: 30px;
+}
+.card-body{
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+/* Review section */
+.reviews-section{
+    background-color: #d7f5f5;
+    padding: 50px 100px;
+}
+.review-heading{
+    margin-bottom: 30px;
+}
+.review-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: start;
+}
+.reveiw-card{
+    background-color: white;
+    padding: 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    width: 90%;
+}
+.reveiw-card .customer-image{
+    margin-right: 15px;
+}
+.twitter-blue{
+    width: 30px;
+}
+.review-head{
+    display: flex;
+    align-items: center;
+}
+.twitter-blue{
+    flex: 1;
+    text-align: right;
+}
+.review-body{
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    width: 80%;
+}
+.review-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.like-holder{
+    display: flex;
+    justify-content: space-around;
+}
+.like-image{
+    margin-right: 7px;
+}
+
+/* Price plan section */
+
+
+.price-plan{
+    background-color: white;
+    /* text-align: center; */
+    padding: 50px 0;
+    /* margin: 0 auto; */
+}
+.plan-head{
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 50px auto;
+    width: 30%;
+}
+.plan-card{
+    border: 1px solid #ffad23;
+    background-color: #fbf8f3;
+    margin: 0 auto;
+    width: 30%;
+    -webkit-border-radius: 7px ;
+    -moz-border-radius: 7px ;
+    -ms-border-radius: 7px ;
+    -o-border-radius: 7px ;
+    border-radius: 7px ;
+    padding: 40px 25px 25px;
+}
+.price-head p{
+    margin: 0;
+}
+.price{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.plan-description .description p{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+.plan-button{
+    text-align: center;
+    margin-top: 25px;
+}
+.plan-button a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Footer section */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7f5f5;
+    padding: 15px 100px;
+}
+.sidelink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* color: black; */
+}
+.sidelink a{
+    text-decoration: none;
+    color: black;
+}
